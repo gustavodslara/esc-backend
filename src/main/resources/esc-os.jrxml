@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d872701-54f6-4fb7-b701-03e2735b7acd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="IdOs" class="java.lang.String"/>
+	<parameter name="Ano" class="java.lang.String"/>
+	<parameter name="UnidadeS" class="java.lang.String"/>
+	<parameter name="AcaoEdu" class="java.lang.String"/>
+	<parameter name="DataInicio" class="java.lang.String"/>
+	<parameter name="DataFim" class="java.lang.String"/>
+	<parameter name="HoraFim" class="java.lang.String"/>
+	<parameter name="HoraIni" class="java.lang.String"/>
+	<parameter name="QtdPart" class="java.lang.String"/>
+	<parameter name="CargaHr" class="java.lang.String"/>
+	<parameter name="Modalidade" class="java.lang.String"/>
+	<parameter name="Demanda" class="java.lang.String"/>
+	<parameter name="CoordGeral" class="java.lang.String"/>
+	<parameter name="CoordInst" class="java.lang.String"/>
+	<parameter name="CoordCap" class="java.lang.String"/>
+	<parameter name="CoordOp" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="EquipeTec" class="java.lang.String"/>
+	<parameter name="EquipeJud" class="java.lang.Boolean"/>
+	<parameter name="EquipeEdu" class="java.lang.Boolean"/>
+	<parameter name="Observacao" class="java.lang.String"/>
+	<parameter name="OsPor" class="java.lang.String"/>
+	<parameter name="Local" class="java.lang.String"/>
+	<parameter name="PublicoAlvo" class="java.lang.String"/>
+	<parameter name="Data1" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora1" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim1" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data2" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora2" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim2" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data3" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora3" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim3" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data4" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora4" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim4" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data5" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora5" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim5" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data6" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora6" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim6" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Data7" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Hora7" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="Horafim7" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordAcao1" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordAcao2" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordAcao3" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordAcao4" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordOp1" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordOp2" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordOp3" class="java.lang.String" nestedType="java.lang.String"/>
+	<parameter name="CoordOp4" class="java.lang.String" nestedType="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="72" splitType="Stretch">
+			<image>
+				<reportElement x="-20" y="-20" width="595" height="90" uuid="8b4e68b8-cf51-4812-a46c-f5c7b3254a92"/>
+				<imageExpression><![CDATA["https://i.ibb.co/xqsRGN3/logo2.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="112" y="37" width="195" height="30" uuid="e34a6510-3874-43ab-bef2-7c3109cb8cf7"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="20"/>
+				</textElement>
+				<text><![CDATA[Ordem de Serviço Nº]]></text>
+			</staticText>
+			<textField evaluationTime="Column">
+				<reportElement x="310" y="37" width="190" height="30" uuid="bb47c84a-899b-4665-82ce-b800cdf09c49"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[String.valueOf($P{IdOs}) + "/" + String.valueOf($P{Ano})]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="43">
+			<staticText>
+				<reportElement x="5" y="0" width="100" height="18" uuid="e12916be-6548-43fc-9cfa-f6b7c276af60"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Ação Educacional:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="0" width="445" height="18" uuid="b1be094f-4308-416b-97b4-887b2f6cbe07"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{AcaoEdu}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="20" width="100" height="18" uuid="287d9834-4fc8-4d82-8dae-3246a83c2269"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Unidade Solicitante:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="20" width="445" height="18" uuid="69bb1151-0f6b-4fa7-86d9-ae67b4d6be6d"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{UnidadeS}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+			<staticText>
+				<reportElement x="5" y="0" width="100" height="20" uuid="f0588a84-4568-4407-b17d-6123fae734c0"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Datas:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="70c3ab27-b9cf-4764-9af6-e5ff14b52d89">
+					<printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="59b48693-b14e-42f2-99c8-dc3476f448e5">
+					<printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="bb4e1203-3310-47aa-b288-9d1e9cd9b515">
+					<printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim1}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$P{Data2} != null && !$P{Data2}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="1e8834ce-c294-44ed-bd19-ec02d026cda1"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="ec24d436-3992-489f-b9a1-03fbb3b21307"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="775f5cde-fdf9-45c9-b08d-ac5db4f0b9ea"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora2}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$P{Data3} != null && !$P{Data3}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="71ded45f-acf9-4172-97f5-b97d88c5b073"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="90195a8c-75a1-4596-9809-7f2147c9fc9d"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="3895e549-1725-4d8e-bc24-f70bedcba488"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora3}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$P{Data4} != null && !$P{Data4}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="09d289df-e074-4df8-989f-3794fb7a8e80"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="3ae6cd93-20f1-4b17-8712-79f0e751ff7a"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="ff1afedc-2c17-4e7d-a764-9f574c79321c">
+					<printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data4}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$P{Data5} != null && !$P{Data5}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="667b6d43-b50d-46a5-9859-5cd57ff67aea"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="d06a738d-5a72-42c6-8ed9-b4ee06970b01"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="7721a1df-72c5-487c-8c66-05d395a58d0f"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data5}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$P{Data6} != null && !$P{Data6}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="8a947087-bae8-4889-9eca-e93a727860b4"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="1f1eed8f-fd44-479c-9ea1-b0929ed15443"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="2bac4bf7-9217-4058-9c43-c5e28cd726f3"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora6}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="22">
+			<printWhenExpression><![CDATA[$P{Data7} != null && !$P{Data7}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="110" y="0" width="120" height="20" uuid="a31c7280-a046-4eb2-a787-c3133bc1eb39"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Data7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="120" height="20" uuid="0daa00fd-1592-4c78-95b3-30ad7fc87c83"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Hora7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="0" width="120" height="20" uuid="258041d1-6892-42ab-a71c-b4b202c17757"/>
+				<textElement markup="styled">
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Horafim7}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="133">
+			<staticText>
+				<reportElement x="4" y="0" width="100" height="30" uuid="551d1659-7970-4a7f-b0b6-72765aa0e350"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Quantidade de Participantes:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="114" y="5" width="120" height="20" uuid="09a90aa8-16c1-4ae8-a3a6-3da3d6b7d582"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{QtdPart}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="30" width="100" height="20" uuid="91825846-1c24-4965-88e5-b0c6d57e262e"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Modalidade:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="114" y="30" width="120" height="20" uuid="02ed3aa3-ad45-4241-8681-15b3ccb487c0"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Modalidade}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="50" width="100" height="20" uuid="a54963ff-866b-4d0c-bbaa-be1c756e68cb"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Coordenador Geral:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="70" width="100" height="30" uuid="1837acae-5d57-415d-aef9-ed25fb1a3f55"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Coordenadoria de Apoio Institucional:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="350" y="5" width="120" height="20" uuid="32f2fe2d-3e21-48e5-bd86-6e5968755fe6"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[String.valueOf($P{CargaHr}) + "h"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="240" y="5" width="100" height="20" uuid="344832d1-afdb-4af8-8fbf-8099ea472f1f"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Carga Horária:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="350" y="30" width="120" height="20" uuid="4e81d34d-237d-4eac-80c7-8af0d4b77753"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Demanda}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="240" y="30" width="100" height="20" uuid="22e8b2b6-c24d-4326-acc3-e706c86a3eb6"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Demanda:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="114" y="50" width="440" height="20" uuid="16c66f9d-322f-4eeb-b3cb-eab5e6e15ab7"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordGeral}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="75" width="440" height="20" uuid="ff9444af-72ed-45bb-bc70-e9e8f606f541"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordInst}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="106" width="440" height="20" uuid="93eff3f5-b0f6-41bd-be36-5700d6b4ab3c"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordCap}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="101" width="100" height="30" uuid="57822d4c-b562-45c1-9652-e908d1f6060e"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Coordenadoria de Capacitação:]]></text>
+			</staticText>
+		</band>
+		<band height="31">
+			<printWhenExpression><![CDATA[$P{CoordAcao1} != null && !$P{CoordAcao1}.isEmpty()]]></printWhenExpression>
+			<staticText>
+				<reportElement x="4" y="0" width="100" height="30" uuid="a03532ce-a528-4a11-84fd-3bc43bd0431f"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Coordenação de Apoio da Ação:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="6" width="440" height="20" uuid="1e829381-a1da-4d14-a989-3b0f03e514a8"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordAcao1}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="28">
+			<printWhenExpression><![CDATA[$P{CoordAcao2} != null && !$P{CoordAcao2}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="5" width="440" height="20" uuid="0366cece-0e7e-4bb2-a5ea-99559af4b72b"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordAcao2}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<printWhenExpression><![CDATA[$P{CoordAcao3} != null && !$P{CoordAcao3}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="5" width="440" height="20" uuid="f7420697-28e1-4f8e-8f81-5b767a9da918"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordAcao3}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="28">
+			<printWhenExpression><![CDATA[$P{CoordAcao4} != null && !$P{CoordAcao4}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="5" width="440" height="20" uuid="104beb02-c68b-461c-9625-e493c40d89f4"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordAcao4}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="31">
+			<printWhenExpression><![CDATA[$P{CoordOp1} != null && !$P{CoordOp1}.isEmpty()]]></printWhenExpression>
+			<staticText>
+				<reportElement x="4" y="0" width="100" height="30" uuid="28e570e5-cd7e-43bf-a95c-c4e35c203d14"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Coordenação de Apoio Operacional:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="5" width="440" height="20" uuid="fa369903-8dc3-4188-b2c3-8dd92a2c2804"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordOp1}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="4" y="-1" width="579" height="1" uuid="399c5750-376a-44f5-a32f-b248b01d5591"/>
+			</line>
+			<line>
+				<reportElement x="4" y="-113" width="579" height="1" uuid="0da9621a-2464-4c48-9540-85499d5a5bfd"/>
+			</line>
+		</band>
+		<band height="22">
+			<printWhenExpression><![CDATA[$P{CoordOp2} != null && !$P{CoordOp2}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="1" width="440" height="20" uuid="a13da73e-783b-4b3d-b9f7-094e4a9c520e"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordOp2}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="24">
+			<printWhenExpression><![CDATA[$P{CoordOp3} != null && !$P{CoordOp3}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="1" width="440" height="20" uuid="eccd89b1-7fd1-421e-a63b-db81acf967bd"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordOp3}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="22">
+			<printWhenExpression><![CDATA[$P{CoordOp4} != null && !$P{CoordOp4}.isEmpty()]]></printWhenExpression>
+			<textField>
+				<reportElement x="115" y="0" width="440" height="20" uuid="fcca4367-0364-4b5b-b3ff-9eae22cb9566"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CoordOp4}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="237">
+			<staticText>
+				<reportElement x="4" y="6" width="100" height="18" uuid="cacc5171-a9f6-4ab5-81df-66afc14e8dc0"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Equipe Técnica:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="5" width="445" height="22" uuid="90813d39-451f-4919-9828-8bed08e2f7b3"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{EquipeTec}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="115" y="32" width="445" height="18" uuid="1d78e86e-03ee-459f-9f60-54d2701c57fc"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{EquipeJud} ? "Elaborar Termo de Referência" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="95" width="440" height="60" uuid="64500579-4783-47b6-9e8f-702d655dc36e"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Observacao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="95" width="100" height="60" uuid="6fb8e25d-f841-465c-949b-e2f63899aa91"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Observação:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="155" width="100" height="30" uuid="4ba641eb-c097-4f57-8595-1bf9c7a2d721"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Ordem de Serviço Elaborada Por:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="114" y="160" width="440" height="20" uuid="ba65378e-87b4-40b4-aa60-072a6f0f0857"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OsPor}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="190" width="440" height="20" uuid="1f1275dc-c0db-416b-84fc-bd20009b322c"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Local}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="190" width="100" height="20" uuid="6052d5fc-98b3-44c6-8982-c5338c8b90da"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Local:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="32" width="100" height="18" uuid="f0550c94-3515-4ea3-a0f7-a6e49ed5d5f6"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Equipe Jurídica:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="55" width="445" height="25" uuid="7d820fd3-dc69-4c82-aa85-e945c0e6cf40"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{EquipeEdu} ? "Elaborar Matriz de Responsabilidade" : ""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="52" width="100" height="34" uuid="9a493d09-2e10-49cb-bbc6-26753991bc3a"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Equipe Ação Educacional:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="1" width="579" height="1" uuid="b2c0ad19-18f3-4869-8177-c080f4cd0810"/>
+			</line>
+			<line>
+				<reportElement x="4" y="31" width="579" height="1" uuid="580eb009-6cc6-4fea-8e25-af16285611e9"/>
+			</line>
+			<line>
+				<reportElement x="4" y="50" width="579" height="1" uuid="f491414d-f306-499b-b7d0-9fb0fa5aa14e"/>
+			</line>
+			<line>
+				<reportElement x="4" y="88" width="579" height="1" uuid="3ee2af73-7241-452f-b525-d3d6df0c8f14"/>
+			</line>
+			<textField>
+				<reportElement x="114" y="213" width="440" height="20" uuid="f78da58e-e678-4997-a87c-2a79d460e651"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{PublicoAlvo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="213" width="100" height="20" uuid="3b342858-d363-44c7-be60-12f209275d03"/>
+				<textElement>
+					<font fontName="Segoe UI Semibold" size="11"/>
+				</textElement>
+				<text><![CDATA[Público Alvo:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="20" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

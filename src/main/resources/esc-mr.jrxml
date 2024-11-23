@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d872701-54f6-4fb7-b701-03e2735b7acd">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <parameter name="IdOs" class="java.lang.String"/>
+    <parameter name="Ano" class="java.lang.String"/>
+    <parameter name="UnidadeS" class="java.lang.String"/>
+    <parameter name="AcaoEdu" class="java.lang.String"/>
+    <parameter name="DataInicio" class="java.lang.String"/>
+    <parameter name="DataFim" class="java.lang.String"/>
+    <parameter name="HoraFim" class="java.lang.String"/>
+    <parameter name="HoraIni" class="java.lang.String"/>
+    <parameter name="QtdPart" class="java.lang.String"/>
+    <parameter name="CargaHr" class="java.lang.String"/>
+    <parameter name="Modalidade" class="java.lang.String"/>
+    <parameter name="Demanda" class="java.lang.String"/>
+    <parameter name="CoordGeral" class="java.lang.String"/>
+    <parameter name="CoordInst" class="java.lang.String"/>
+    <parameter name="CoordCap" class="java.lang.String"/>
+    <parameter name="CoordOp" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="EquipeTec" class="java.lang.String"/>
+    <parameter name="EquipeJud" class="java.lang.Boolean"/>
+    <parameter name="Observacao" class="java.lang.String"/>
+    <parameter name="OsPor" class="java.lang.String"/>
+    <parameter name="Local" class="java.lang.String"/>
+    <parameter name="PublicoAlvo" class="java.lang.String"/>
+    <parameter name="Data1" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora1" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim1" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data2" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora2" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim2" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data3" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora3" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim3" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data4" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora4" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim4" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data5" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora5" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim5" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data6" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora6" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim6" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Data7" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Hora7" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="Horafim7" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordAcao1" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordAcao2" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordAcao3" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordAcao4" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordOp1" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordOp2" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordOp3" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="CoordOp4" class="java.lang.String" nestedType="java.lang.String"/>
+    <parameter name="nome_presidente1" class="java.lang.String"/>
+    <parameter name="atribuicoes1" class="java.lang.String"/>
+    <parameter name="nome_presidente2" class="java.lang.String"/>
+    <parameter name="atribuicoes2" class="java.lang.String"/>
+    <parameter name="nome_presidente3" class="java.lang.String"/>
+    <parameter name="atribuicoes3" class="java.lang.String"/>
+    <parameter name="nome_presidente4" class="java.lang.String"/>
+    <parameter name="atribuicoes4" class="java.lang.String"/>
+    <parameter name="nome_presidente5" class="java.lang.String"/>
+    <parameter name="atribuicoes5" class="java.lang.String"/>
+    <parameter name="nome_presidente6" class="java.lang.String"/>
+    <parameter name="atribuicoes6" class="java.lang.String"/>
+    <parameter name="nome_presidente7" class="java.lang.String"/>
+    <parameter name="atribuicoes7" class="java.lang.String"/>
+    <parameter name="nome_presidente8" class="java.lang.String"/>
+    <parameter name="atribuicoes8" class="java.lang.String"/>
+    <parameter name="nome_presidente9" class="java.lang.String"/>
+    <parameter name="atribuicoes9" class="java.lang.String"/>
+    <parameter name="nome_presidente10" class="java.lang.String"/>
+    <parameter name="atribuicoes10" class="java.lang.String"/>
+    <parameter name="nome_presidente11" class="java.lang.String"/>
+    <parameter name="atribuicoes11" class="java.lang.String"/>
+    <parameter name="nome_presidente12" class="java.lang.String"/>
+    <parameter name="atribuicoes12" class="java.lang.String"/>
+    <parameter name="nome_presidente13" class="java.lang.String"/>
+    <parameter name="atribuicoes13" class="java.lang.String"/>
+    <parameter name="nome_presidente14" class="java.lang.String"/>
+    <parameter name="atribuicoes14" class="java.lang.String"/>
+    <parameter name="nome_presidente15" class="java.lang.String"/>
+    <parameter name="atribuicoes15" class="java.lang.String"/>
+    <parameter name="nome_presidente16" class="java.lang.String"/>
+    <parameter name="atribuicoes16" class="java.lang.String"/>
+    <parameter name="nome_presidente17" class="java.lang.String"/>
+    <parameter name="atribuicoes17" class="java.lang.String"/>
+    <parameter name="atribuioces9" class="java.lang.String"/>
+    <parameter name="Objetivo" class="java.lang.String"/>
+    <parameter name="Tema" class="java.lang.String"/>
+    <parameter name="EquipeEdu" class="java.lang.Boolean"/>
+    <parameter name="nome_presidente18" class="java.lang.String"/>
+    <parameter name="atribuicoes18" class="java.lang.String"/>
+    <parameter name="nome_presidente19" class="java.lang.String"/>
+    <parameter name="atribuicoes19" class="java.lang.String"/>
+    <parameter name="nome_presidente20" class="java.lang.String"/>
+    <parameter name="atribuicoes20" class="java.lang.String"/>
+    <parameter name="nome_presidente21" class="java.lang.String"/>
+    <parameter name="atribuicoes21" class="java.lang.String"/>
+    <parameter name="nome_presidente22" class="java.lang.String"/>
+    <parameter name="atribuicoes22" class="java.lang.String"/>
+    <parameter name="nome_presidente23" class="java.lang.String"/>
+    <parameter name="atribuicoes23" class="java.lang.String"/>
+    <parameter name="nome_presidente24" class="java.lang.String"/>
+    <parameter name="atribuicoes24" class="java.lang.String"/>
+    <parameter name="nome_presidente25" class="java.lang.String"/>
+    <parameter name="atribuicoes25" class="java.lang.String"/>
+    <parameter name="nome_presidente26" class="java.lang.String"/>
+    <parameter name="atribuicoes26" class="java.lang.String"/>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="72" splitType="Stretch">
+            <image>
+                <reportElement x="-20" y="-20" width="595" height="90" uuid="8b4e68b8-cf51-4812-a46c-f5c7b3254a92"/>
+                <imageExpression><![CDATA["https://i.ibb.co/xqsRGN3/logo2.png"]]></imageExpression>
+            </image>
+            <staticText>
+                <reportElement x="24" y="37" width="296" height="30" uuid="e34a6510-3874-43ab-bef2-7c3109cb8cf7"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="20"/>
+                </textElement>
+                <text><![CDATA[Matriz de Responsabilidade Nº]]></text>
+            </staticText>
+            <textField evaluationTime="Column">
+                <reportElement x="310" y="37" width="190" height="30" uuid="bb47c84a-899b-4665-82ce-b800cdf09c49"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="20"/>
+                </textElement>
+                <textFieldExpression><![CDATA[String.valueOf($P{IdOs}) + "/" + String.valueOf($P{Ano})]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <pageHeader>
+        <band splitType="Stretch"/>
+    </pageHeader>
+    <columnHeader>
+        <band splitType="Stretch"/>
+    </columnHeader>
+    <detail>
+        <band height="94">
+            <staticText>
+                <reportElement x="5" y="0" width="100" height="18" uuid="e12916be-6548-43fc-9cfa-f6b7c276af60"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Tema:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="110" y="0" width="445" height="18" uuid="b1be094f-4308-416b-97b4-887b2f6cbe07"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Tema}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="20" width="100" height="18" uuid="287d9834-4fc8-4d82-8dae-3246a83c2269"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Objetivo:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="110" y="20" width="445" height="39" uuid="69bb1151-0f6b-4fa7-86d9-ae67b4d6be6d"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Objetivo}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="66" width="100" height="20" uuid="80dadb18-8e36-4c4a-81ea-a8d49190c922"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Público Alvo:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="110" y="66" width="440" height="20" uuid="ead1c967-630c-4a3b-ad1a-e1ad7e410b30"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{PublicoAlvo}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+            <staticText>
+                <reportElement x="5" y="0" width="100" height="20" uuid="f0588a84-4568-4407-b17d-6123fae734c0"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Datas:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="70c3ab27-b9cf-4764-9af6-e5ff14b52d89">
+                    <printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+                </reportElement>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data1}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="59b48693-b14e-42f2-99c8-dc3476f448e5">
+                    <printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+                </reportElement>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora1}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="bb4e1203-3310-47aa-b288-9d1e9cd9b515">
+                    <printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+                </reportElement>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim1}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <printWhenExpression><![CDATA[$P{Data2} != null && !$P{Data2}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="1e8834ce-c294-44ed-bd19-ec02d026cda1"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data2}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="ec24d436-3992-489f-b9a1-03fbb3b21307"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim2}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="775f5cde-fdf9-45c9-b08d-ac5db4f0b9ea"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora2}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <printWhenExpression><![CDATA[$P{Data3} != null && !$P{Data3}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="71ded45f-acf9-4172-97f5-b97d88c5b073"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data3}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="90195a8c-75a1-4596-9809-7f2147c9fc9d"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim3}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="3895e549-1725-4d8e-bc24-f70bedcba488"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora3}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <printWhenExpression><![CDATA[$P{Data4} != null && !$P{Data4}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="09d289df-e074-4df8-989f-3794fb7a8e80"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim4}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="3ae6cd93-20f1-4b17-8712-79f0e751ff7a"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora4}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="ff1afedc-2c17-4e7d-a764-9f574c79321c">
+                    <printWhenExpression><![CDATA[$P{Data1} != null && !$P{Data1}.isEmpty()]]></printWhenExpression>
+                </reportElement>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data4}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <printWhenExpression><![CDATA[$P{Data5} != null && !$P{Data5}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="667b6d43-b50d-46a5-9859-5cd57ff67aea"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim5}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="d06a738d-5a72-42c6-8ed9-b4ee06970b01"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora5}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="7721a1df-72c5-487c-8c66-05d395a58d0f"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data5}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="20">
+            <printWhenExpression><![CDATA[$P{Data6} != null && !$P{Data6}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="8a947087-bae8-4889-9eca-e93a727860b4"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim6}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="1f1eed8f-fd44-479c-9ea1-b0929ed15443"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data6}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="2bac4bf7-9217-4058-9c43-c5e28cd726f3"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora6}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="22">
+            <printWhenExpression><![CDATA[$P{Data7} != null && !$P{Data7}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="110" y="0" width="120" height="20" uuid="a31c7280-a046-4eb2-a787-c3133bc1eb39"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Data7}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="240" y="0" width="120" height="20" uuid="0daa00fd-1592-4c78-95b3-30ad7fc87c83"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Hora7}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="370" y="0" width="120" height="20" uuid="258041d1-6892-42ab-a71c-b4b202c17757"/>
+                <textElement markup="styled">
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Horafim7}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="133">
+            <staticText>
+                <reportElement x="4" y="0" width="100" height="30" uuid="551d1659-7970-4a7f-b0b6-72765aa0e350"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Quantidade de Participantes:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="114" y="5" width="120" height="20" uuid="09a90aa8-16c1-4ae8-a3a6-3da3d6b7d582"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{QtdPart}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="30" width="100" height="20" uuid="91825846-1c24-4965-88e5-b0c6d57e262e"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Modalidade:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="114" y="30" width="120" height="20" uuid="02ed3aa3-ad45-4241-8681-15b3ccb487c0"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Modalidade}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="50" width="100" height="20" uuid="a54963ff-866b-4d0c-bbaa-be1c756e68cb"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Coordenador Geral:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="4" y="70" width="100" height="30" uuid="1837acae-5d57-415d-aef9-ed25fb1a3f55"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Coordenadoria de Apoio Institucional:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="350" y="5" width="120" height="20" uuid="32f2fe2d-3e21-48e5-bd86-6e5968755fe6"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[String.valueOf($P{CargaHr}) + "h"]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="240" y="5" width="100" height="20" uuid="344832d1-afdb-4af8-8fbf-8099ea472f1f"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Carga Horária:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="350" y="30" width="120" height="20" uuid="4e81d34d-237d-4eac-80c7-8af0d4b77753"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Demanda}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="240" y="30" width="100" height="20" uuid="22e8b2b6-c24d-4326-acc3-e706c86a3eb6"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Demanda:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="114" y="50" width="440" height="20" uuid="16c66f9d-322f-4eeb-b3cb-eab5e6e15ab7"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordGeral}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="114" y="75" width="440" height="20" uuid="ff9444af-72ed-45bb-bc70-e9e8f606f541"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordInst}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="114" y="106" width="440" height="20" uuid="93eff3f5-b0f6-41bd-be36-5700d6b4ab3c"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordCap}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="101" width="100" height="30" uuid="57822d4c-b562-45c1-9652-e908d1f6060e"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Coordenadoria de Capacitação:]]></text>
+            </staticText>
+        </band>
+        <band height="31">
+            <printWhenExpression><![CDATA[$P{CoordAcao1} != null && !$P{CoordAcao1}.isEmpty()]]></printWhenExpression>
+            <staticText>
+                <reportElement x="4" y="0" width="100" height="30" uuid="a03532ce-a528-4a11-84fd-3bc43bd0431f"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Coordenação de Apoio da Ação:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="115" y="6" width="440" height="20" uuid="1e829381-a1da-4d14-a989-3b0f03e514a8"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordAcao1}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="28">
+            <printWhenExpression><![CDATA[$P{CoordAcao2} != null && !$P{CoordAcao2}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="5" width="440" height="20" uuid="0366cece-0e7e-4bb2-a5ea-99559af4b72b"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordAcao2}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="25">
+            <printWhenExpression><![CDATA[$P{CoordAcao3} != null && !$P{CoordAcao3}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="5" width="440" height="20" uuid="f7420697-28e1-4f8e-8f81-5b767a9da918"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordAcao3}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="28">
+            <printWhenExpression><![CDATA[$P{CoordAcao4} != null && !$P{CoordAcao4}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="5" width="440" height="20" uuid="104beb02-c68b-461c-9625-e493c40d89f4"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordAcao4}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="31">
+            <printWhenExpression><![CDATA[$P{CoordOp1} != null && !$P{CoordOp1}.isEmpty()]]></printWhenExpression>
+            <staticText>
+                <reportElement x="4" y="0" width="100" height="30" uuid="28e570e5-cd7e-43bf-a95c-c4e35c203d14"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Coordenação de Apoio Operacional:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="115" y="5" width="440" height="20" uuid="fa369903-8dc3-4188-b2c3-8dd92a2c2804"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordOp1}]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="4" y="-1" width="571" height="1" uuid="399c5750-376a-44f5-a32f-b248b01d5591"/>
+            </line>
+            <line>
+                <reportElement x="4" y="-113" width="571" height="1" uuid="0da9621a-2464-4c48-9540-85499d5a5bfd"/>
+            </line>
+        </band>
+        <band height="22">
+            <printWhenExpression><![CDATA[$P{CoordOp2} != null && !$P{CoordOp2}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="1" width="440" height="20" uuid="a13da73e-783b-4b3d-b9f7-094e4a9c520e"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordOp2}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="24">
+            <printWhenExpression><![CDATA[$P{CoordOp3} != null && !$P{CoordOp3}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="1" width="440" height="20" uuid="eccd89b1-7fd1-421e-a63b-db81acf967bd"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordOp3}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="22">
+            <printWhenExpression><![CDATA[$P{CoordOp4} != null && !$P{CoordOp4}.isEmpty()]]></printWhenExpression>
+            <textField>
+                <reportElement x="115" y="0" width="440" height="20" uuid="fcca4367-0364-4b5b-b3ff-9eae22cb9566"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CoordOp4}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="212">
+            <staticText>
+                <reportElement x="4" y="6" width="100" height="18" uuid="cacc5171-a9f6-4ab5-81df-66afc14e8dc0"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Equipe Técnica:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="115" y="5" width="445" height="22" uuid="90813d39-451f-4919-9828-8bed08e2f7b3"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{EquipeTec}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="115" y="32" width="445" height="18" uuid="1d78e86e-03ee-459f-9f60-54d2701c57fc"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{EquipeJud} ? "Elaborar Termo de Referência" : ""]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="114" y="95" width="440" height="60" uuid="64500579-4783-47b6-9e8f-702d655dc36e"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Observacao}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="95" width="100" height="60" uuid="6fb8e25d-f841-465c-949b-e2f63899aa91"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Observação:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="4" y="155" width="100" height="30" uuid="4ba641eb-c097-4f57-8595-1bf9c7a2d721"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Ordem de Serviço Elaborada Por:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="114" y="160" width="440" height="20" uuid="ba65378e-87b4-40b4-aa60-072a6f0f0857"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{OsPor}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="114" y="190" width="440" height="20" uuid="1f1275dc-c0db-416b-84fc-bd20009b322c"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{Local}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="190" width="100" height="20" uuid="6052d5fc-98b3-44c6-8982-c5338c8b90da"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Local:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="4" y="32" width="100" height="18" uuid="f0550c94-3515-4ea3-a0f7-a6e49ed5d5f6"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Equipe Jurídica:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="115" y="55" width="445" height="25" uuid="7d820fd3-dc69-4c82-aa85-e945c0e6cf40"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{EquipeEdu} ? "Elaborar Matriz de Responsabilidade" : ""]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="52" width="100" height="34" uuid="9a493d09-2e10-49cb-bbc6-26753991bc3a"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="11"/>
+                </textElement>
+                <text><![CDATA[Equipe Ação Educacional:]]></text>
+            </staticText>
+            <line>
+                <reportElement x="4" y="1" width="571" height="1" uuid="b2c0ad19-18f3-4869-8177-c080f4cd0810"/>
+            </line>
+            <line>
+                <reportElement x="4" y="31" width="571" height="1" uuid="580eb009-6cc6-4fea-8e25-af16285611e9"/>
+            </line>
+            <line>
+                <reportElement x="4" y="50" width="571" height="1" uuid="f491414d-f306-499b-b7d0-9fb0fa5aa14e"/>
+            </line>
+            <line>
+                <reportElement x="4" y="88" width="571" height="1" uuid="3ee2af73-7241-452f-b525-d3d6df0c8f14"/>
+            </line>
+        </band>
+        <band height="387">
+            <staticText>
+                <reportElement x="120" y="10" width="296" height="30" uuid="5c4b6ced-f5f5-42c8-b986-f74de1305512"/>
+                <textElement>
+                    <font fontName="Segoe UI Semibold" size="20"/>
+                </textElement>
+                <text><![CDATA[Descrição de Responsabilidade]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="5" y="99" width="305" height="18" uuid="ee043f53-256c-4597-9084-2a9c27fb6a3c"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente26}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="52" width="185" height="18" uuid="52fd522e-5f5c-4059-b0b3-d3f5f85ff76b"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Unidade Responsável]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="314" y="52" width="100" height="18" uuid="a04d6bbd-c4f6-4c38-b992-fa0bd8763466"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Atribuições]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="79" width="185" height="18" uuid="6c6b5315-f1aa-47e4-b4c3-53f7ea36372c"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Presidente]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="99" width="240" height="120" uuid="f1ef9b47-c45e-4e46-b4d1-88576649f40d"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes23}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="314" y="250" width="240" height="60" uuid="3153e76b-5fa1-4c83-8f84-ee31a49ae784"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes22}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="5" y="250" width="305" height="18" uuid="116d7271-616c-4935-8efd-48d0355acb91"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente25}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="230" width="185" height="18" uuid="df19ca63-42da-43e4-9d24-3f365defe1a8"/>
+                <textElement >
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete da Presidência]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="330" width="240" height="50" uuid="3d221e50-0a70-46ec-b7ca-dfee1bef1d48"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes21}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="5" y="330" width="305" height="18" uuid="fe647567-65d6-4d7e-b6de-be143373aa02"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente24}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="310" width="185" height="18" uuid="fa65769a-064e-412e-b1cd-01dcc724c057"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria Geral da Presidência]]></text>
+            </staticText>
+            <line>
+                <reportElement x="5" y="80" width="571" height="1" uuid="bf838785-bb29-4e3d-9d1d-a276f9d778d8"/>
+            </line>
+            <line>
+                <reportElement x="6" y="229" width="569" height="1" uuid="a2f3d604-9586-43cf-9b72-812515f2a491"/>
+            </line>
+            <line>
+                <reportElement x="6" y="309" width="569" height="1" uuid="3d9973f5-1975-41c8-8e9c-e0da0e29ae26"/>
+            </line>
+            <line>
+                <reportElement x="5" y="98" width="194" height="1" uuid="3be28b5a-2c06-408b-becb-7533e02f8b8d"/>
+            </line>
+            <line>
+                <reportElement x="6" y="249" width="194" height="1" uuid="e2c23b45-fecc-49fe-bcc1-398704a4e701"/>
+            </line>
+            <line>
+                <reportElement x="6" y="329" width="194" height="1" uuid="3f2c03f9-ec75-4433-af9a-5e88bca07703"/>
+            </line>
+        </band>
+        <band height="370">
+            <staticText>
+                <reportElement x="5" y="33" width="185" height="18" uuid="5556daa5-2d70-4e61-bb3a-7962f014c2ca"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Unidade Responsável]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="314" y="33" width="100" height="18" uuid="9b9a7ddd-1d92-4fee-8f5a-9ad9408edac7"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Atribuições]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="60" width="185" height="18" uuid="c8e33eb3-9a58-49a3-b85f-069152aab1b0"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete Conselheiro]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="5" y="83" width="305" height="18" uuid="1104ef13-d44a-4a12-96cb-a11f7d7a582c"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente23}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="314" y="80" width="240" height="18" uuid="fd0b886d-c1af-4db7-b337-7c8193e58f74"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes20}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="10" width="335" height="18" uuid="924377de-7921-434d-9a49-424a7c9d9921"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[GABINETE DE CONSELHEIRO – PROCURADOR DE CONTAS]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="313" y="140" width="240" height="18" uuid="0f2db270-94cc-41a3-8baf-ef1f8007f61a"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes19}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="4" y="140" width="305" height="18" uuid="54244fb6-d1c4-4c75-991a-c81cc57271a2"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente22}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="120" width="185" height="18" uuid="a67c9fcd-0d95-4086-8571-b7f28b65bd7b"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete Supervisor]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="200" width="240" height="18" uuid="ad17ebc4-d600-43ac-9770-86eb565d13c4"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes18}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="5" y="200" width="305" height="18" uuid="056ab7ed-3ab5-4318-858a-6d8dc1613897"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente21}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="180" width="185" height="18" uuid="d86aa898-5f45-4132-ad92-126c50537d94"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete do Conselheiro]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="5" y="250" width="305" height="18" uuid="2fcb9df5-e334-410f-a757-273c9daf1743"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente20}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="230" width="185" height="18" uuid="c6ee17b3-e67b-4b1d-a905-338203a6ef9d"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete do Conselheiro]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="250" width="240" height="18" uuid="8fefecd0-9dce-48d9-bde6-da3ac9a89f8f"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes17}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="6" y="298" width="305" height="18" uuid="6810e170-4d48-4051-a26d-ea0f167b0f54"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente19}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="6" y="278" width="185" height="18" uuid="00a23f9c-9012-43cf-9503-f036d768edb6"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete do Conselheiro]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="315" y="298" width="240" height="18" uuid="e9107a1e-1a0f-418c-b21e-0a17f095c775"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes17}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="313" y="350" width="240" height="18" uuid="c9adc4ba-7d46-47c0-8def-e5ee9df284fb"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes16}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="4" y="350" width="305" height="18" uuid="665ad420-4571-4236-92df-f42e08aaf255"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente18}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="4" y="330" width="185" height="18" uuid="664ef67d-9fba-41ba-80be-3e4d40265e4e"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Procurador Geral de Contas]]></text>
+            </staticText>
+            <line>
+                <reportElement x="5" y="6" width="569" height="1" uuid="b9cc0b18-9302-45f7-882f-ab3f56bfa2b9"/>
+            </line>
+            <line>
+                <reportElement x="5" y="120" width="570" height="1" uuid="c2810146-efe6-4435-b6ec-3e7243f83588"/>
+            </line>
+            <line>
+                <reportElement x="6" y="180" width="569" height="1" uuid="9703a2c3-ef31-4d68-933b-023bc6e67196"/>
+            </line>
+            <line>
+                <reportElement x="6" y="230" width="569" height="1" uuid="4b9423a3-00bb-4d0d-a020-a2caf077ceb2"/>
+            </line>
+            <line>
+                <reportElement x="6" y="278" width="569" height="1" uuid="0d76d522-e4f2-4529-9d64-d5d57b4e11d6"/>
+            </line>
+            <line>
+                <reportElement x="4" y="330" width="569" height="1" uuid="c49bd810-3a08-4691-a008-65c0bc05b33f"/>
+            </line>
+            <line>
+                <reportElement x="5" y="298" width="194" height="1" uuid="5da1dffe-c67b-46fc-8641-719f6dd2bbc5"/>
+            </line>
+        </band>
+        <band height="100">
+            <staticText>
+                <reportElement x="5" y="10" width="335" height="18" uuid="62be18a5-8ffb-4954-a90b-2a59409b2e58"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[CONSULTORIA JURIDICA GERAL]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="33" width="185" height="18" uuid="299c14ab-eb91-4445-8ac4-58100c277c3c"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Unidade Responsável]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="314" y="33" width="100" height="18" uuid="7bf0e749-4fdc-4dbb-8a98-540108503bc9"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Atribuições]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="80" width="240" height="18" uuid="88866fc0-d246-4657-b42e-3a56ed444c89"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes15}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="60" width="185" height="18" uuid="ecdc7be2-98d1-4331-a785-828b6c6f7c4f"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Consultoria Jurídica Geral]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="5" y="80" width="305" height="18" uuid="5329a774-bcae-471d-9aa2-5cad4b25fa38"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente17}]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="5" y="6" width="569" height="1" uuid="faf9c4ad-6300-46e2-9073-fdb852ee67b5"/>
+            </line>
+        </band>
+        <band height="256">
+            <textField textAdjust="StretchHeight">
+                <reportElement stretchType="RelativeToTallestObject" x="314" y="80" width="240" height="169" uuid="1afa2820-3843-4970-9b27-8e34f12e416e"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes14}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="5" y="80" width="305" height="18" uuid="bced6510-6da6-4225-a612-6fb531e3fef4"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente16}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="60" width="485" height="18" uuid="803f760a-05f3-4a84-b463-6c7a18390496"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete do Conselheiro Comissão Permanente de Saúde e Assistência Social do TCE-MT]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="33" width="185" height="18" uuid="e32f8091-838c-4fc5-aa99-713dceb5fa37"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Unidade Responsável]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="10" width="464" height="18" uuid="e4115515-31da-40d0-b88e-6b1230fd1497"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[COMISSÃO PERMANENTE DE SAÚDE E ASSISTÊNCIA SOCIAL DO TCE-MT]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="314" y="33" width="100" height="18" uuid="24b4da74-0f39-4b0b-b8cc-1cccfd394c7e"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Atribuições]]></text>
+            </staticText>
+            <line>
+                <reportElement x="5" y="7" width="560" height="1" uuid="8d59ac01-9332-497d-95f1-d69e82d0942f"/>
+            </line>
+        </band>
+        <band height="782">
+            <staticText>
+                <reportElement x="5" y="10" width="335" height="18" uuid="c0cae632-5d87-4d64-ab8b-df0ce385457b"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[GESTÃO EXECUTIVA]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="33" width="185" height="18" uuid="18f4b933-1ec6-4319-814e-62050c511ffb"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Unidade Responsável]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="60" width="355" height="18" uuid="b8cf5bd5-6355-4cc0-91b8-fb271da59e3f"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria Executiva de Orçamento, Finanças e Contabilidade]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="5" y="80" width="305" height="18" uuid="fd2f8968-910a-4696-be4a-7cbc1853a799"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente15}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="314" y="80" width="240" height="18" uuid="aae9f58d-7e6c-4d9e-ae45-41e1b51d206a"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes13}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="314" y="33" width="100" height="18" uuid="ea58eb01-36ed-4a17-970a-87f5410e76f6"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Atribuições]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="314" y="293" width="240" height="58" uuid="6d03b2b0-73b7-4a39-8890-beb47cb85f2a"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes11}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="5" y="293" width="305" height="18" uuid="a05aa169-e20e-4fb3-992a-9e284d5dbfba"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente10}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="5" y="273" width="355" height="18" uuid="48d23339-9fab-4961-8ccd-3b15de24e963"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria de Tecnologia da Informação]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="315" y="380" width="240" height="170" uuid="12e9ace3-4824-4043-abdc-11e14539a84c"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes10}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="6" y="380" width="305" height="18" uuid="624409bf-d10b-4fef-af92-702b852794ad"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente9}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="6" y="360" width="355" height="18" uuid="e2400330-e20b-4228-8450-790bf101061f"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria de Comunicação Social]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="316" y="580" width="240" height="70" uuid="08fb3109-f2ed-41f6-bed6-feb89da4bc8e"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuioces9}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="7" y="580" width="305" height="18" uuid="3211dcf8-7e77-4866-a6d6-a036f08b1cbd"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente8}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="7" y="560" width="355" height="18" uuid="9bcc6151-9bed-4a6d-9aab-884bd198b8f4"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria de Comunicação Social]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="9" y="670" width="305" height="18" uuid="ef5436eb-db7f-4eb8-94bf-600d22b8913d"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente7}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="318" y="670" width="240" height="112" uuid="e085171e-bd0a-4606-95bf-8f0330677694"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes7}]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="5" y="0" width="560" height="7" uuid="a88eef29-be62-484f-89ee-e0db1d38b21c"/>
+            </line>
+            <line>
+                <reportElement x="5" y="272" width="569" height="1" uuid="dbb20ea1-26b8-482c-8a04-20540101dccf"/>
+            </line>
+            <frame>
+                <reportElement stretchType="ElementGroupHeight" x="5" y="98" width="560" height="171" uuid="907211af-3c4d-4b37-8bb8-6f84443f8a49"/>
+                <textField>
+                    <reportElement stretchType="ElementGroupHeight" x="309" y="30" width="240" height="133" uuid="c9c08007-fc14-46f0-a5cd-e7d105c2a857"/>
+                    <textElement>
+                        <font fontName="Segoe UI Light" size="11"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$P{atribuicoes12}]]></textFieldExpression>
+                </textField>
+                <textField>
+                    <reportElement x="0" y="90" width="305" height="18" uuid="efd1885e-a1fa-4a07-9151-56612059816f"/>
+                    <textElement>
+                        <font fontName="Segoe UI Light" size="11"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$P{nome_presidente11}]]></textFieldExpression>
+                </textField>
+                <textField>
+                    <reportElement x="0" y="70" width="305" height="18" uuid="0b676cc0-15f0-4f3c-95e6-314f1e61b290"/>
+                    <textElement>
+                        <font fontName="Segoe UI Light" size="11"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$P{nome_presidente12}]]></textFieldExpression>
+                </textField>
+                <textField>
+                    <reportElement x="0" y="50" width="305" height="18" uuid="7ccae3b0-7f45-4e0a-bdbb-5c31419a11b2"/>
+                    <textElement>
+                        <font fontName="Segoe UI Light" size="11"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$P{nome_presidente13}]]></textFieldExpression>
+                </textField>
+                <staticText>
+                    <reportElement x="0" y="10" width="355" height="18" uuid="819dc1d3-a866-40d4-ac99-2ee3103cb4cb"/>
+                    <textElement>
+                        <font fontName="SansSerif" size="11" isBold="true"/>
+                    </textElement>
+                    <text><![CDATA[Escola Superior de Contas]]></text>
+                </staticText>
+                <textField>
+                    <reportElement x="0" y="30" width="305" height="18" uuid="6c5e19b0-6501-4914-a0c8-2bcd050596ab"/>
+                    <textElement>
+                        <font fontName="Segoe UI Light" size="11"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$P{nome_presidente14}]]></textFieldExpression>
+                </textField>
+                <line>
+                    <reportElement x="-1" y="10" width="561" height="1" uuid="d53ae211-920e-4eb9-b30c-f157f2381a25"/>
+                </line>
+            </frame>
+            <line>
+                <reportElement x="6" y="560" width="569" height="1" uuid="383f4eeb-a8c4-4947-8f10-08fa522f18c2"/>
+            </line>
+            <line>
+                <reportElement x="4" y="360" width="569" height="1" uuid="96d7c1c8-24c0-47f5-b40a-73f3997aab06"/>
+            </line>
+        </band>
+        <band height="718">
+            <textField>
+                <reportElement x="8" y="10" width="305" height="18" uuid="3fe852b5-5a19-473e-8ebf-7774fbb83e76"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente6}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="317" y="10" width="240" height="70" uuid="9dd422ff-c49d-4b42-be88-da5f674da75b"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes6}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="317" y="90" width="240" height="70" uuid="c1ac4d97-81fa-4b45-ace8-f4a426471b6b"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes5}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="8" y="90" width="305" height="18" uuid="6e40da40-a64d-4c06-acb6-bb0dda58da30"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente5}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="9" y="190" width="305" height="18" uuid="e88a30a7-c7df-440b-ba1e-bed837c67fd0"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente4}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="318" y="190" width="240" height="58" uuid="f0ed1cd1-211e-4b10-81bd-727d909b49fa"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes4}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="9" y="170" width="355" height="18" uuid="5590790b-8910-4bc0-838c-a93260a81301"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria de Tecnologia da Informação]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="9" y="280" width="305" height="18" uuid="10c79345-b5ed-430c-b122-ef524d266a64"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente3}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="318" y="280" width="240" height="179" uuid="edd7180d-02d7-4f6b-8d64-d211b4bfca30"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes3}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="9" y="260" width="355" height="18" uuid="c8ff5b61-9f5c-4687-8a50-7cbeec0213c9"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Secretaria de Comunicação Social]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="318" y="482" width="240" height="98" uuid="4744cf79-300b-4acd-a28c-28daa761a3c9"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes2}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="9" y="482" width="305" height="18" uuid="6c4db74a-c954-4f93-b21a-8e6206be0b5f"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente2}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="9" y="462" width="355" height="18" uuid="4c762bf7-e6dd-4357-b1ef-e21094a48ced"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[TV Contas]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="317" y="606" width="240" height="98" uuid="70b8766d-9aa0-4d9c-be9f-05b976098277"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{atribuicoes1}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="8" y="606" width="305" height="18" uuid="46945e56-28e2-4a79-9e8a-6fd0ab490025"/>
+                <textElement>
+                    <font fontName="Segoe UI Light" size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{nome_presidente1}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="8" y="586" width="355" height="18" uuid="e8e18e69-73da-4e7b-857a-0daeef7115c6"/>
+                <textElement>
+                    <font fontName="SansSerif" size="11" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gabinete Militar]]></text>
+            </staticText>
+            <line>
+                <reportElement x="9" y="586" width="551" height="3" uuid="36dc5163-4ab0-4dad-a80a-528330f6e3fa"/>
+            </line>
+            <line>
+                <reportElement x="8" y="462" width="569" height="1" uuid="54421548-437c-48d5-a844-227f45bf4791"/>
+            </line>
+            <line>
+                <reportElement x="8" y="170" width="569" height="1" uuid="37b56fc7-0999-4562-8d87-09334fad7b27"/>
+            </line>
+            <line>
+                <reportElement x="9" y="260" width="569" height="1" uuid="682be519-6d00-4a30-a635-ee9f01f8349c"/>
+            </line>
+        </band>
+    </detail>
+    <columnFooter>
+        <band height="20" splitType="Stretch"/>
+    </columnFooter>
+    <pageFooter>
+        <band splitType="Stretch"/>
+    </pageFooter>
+    <summary>
+        <band splitType="Stretch"/>
+    </summary>
+</jasperReport>
